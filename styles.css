@@ -1,0 +1,35 @@
+body{
+    margin: 20px;
+    background-color: darkgrey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.avatar{
+    width: 200px;
+    height: 200px;
+}
+.card{
+    border-left: 10px solid darkslateblue;
+    border-right: 10px solid darkslateblue;
+    padding: 20px;
+    display: flex;
+    width: 500px;
+    margin: auto;
+    justify-content: space-around;
+    background-color: darkslategrey;
+
+}
+.border-green{
+    border: 4px dotted darkgreen;
+}
+.colomn{
+    border: 4px dotted darkgreen;
+    width: 250px;
+    text-align: center;
+    color: lightseagreen;
+    font-style: inherit;
+}
+.line{
+    text-align: center;
+    color: black;
+    font-style: inherit;
+}
