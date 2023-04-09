@@ -1,35 +1,83 @@
 body{
     margin: 20px;
-    background-color: darkgrey;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: darkgrey linear-gradient(rosybrown, purple);
+    border: darkslateblue 4px solid;
 }
 .avatar{
-    width: 200px;
+    width: 35%;
     height: 200px;
 }
-.card{
+#card {
     border-left: 10px solid darkslateblue;
     border-right: 10px solid darkslateblue;
     padding: 20px;
     display: flex;
-    width: 500px;
+    width: 40%;
     margin: auto;
     justify-content: space-around;
     background-color: darkslategrey;
-
 }
+
 .border-green{
     border: 4px dotted darkgreen;
 }
-.colomn{
+
+#column{
     border: 4px dotted darkgreen;
     width: 250px;
     text-align: center;
     color: lightseagreen;
+    text-shadow: -1px 1px 1px black;
     font-style: inherit;
 }
+
+
+.container2 {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+
 .line{
     text-align: center;
+    text-shadow: none;
     color: black;
     font-style: inherit;
 }
+
+h1, h2{
+    margin-top: 20px;
+    color: black;
+    text-align: center;
+    text-shadow: -1px 1px 2px dimgray;
+    margin-bottom: 30px;
+}
+
+.separation{
+    border: 2px solid darkslateblue;
+    margin-top: 50px;
+}
+
+.images{
+    /* grid of four items and auto wrap */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 130px);
+    grid-gap: 20px;
+    width: 100%;
+    margin-left: 100px;
+}
+
+.img{
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+    border: 3px dotted rosybrown;
+    padding: 10px;
+transition: transform 0.5s;
+}
+
+.img:hover{
+    transform: scale(1.2);
+}
+
