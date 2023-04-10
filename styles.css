@@ -4,6 +4,14 @@ body{
     background: darkgrey linear-gradient(rosybrown, purple);
     border: darkslateblue 4px solid;
 }
+
+h1, h2{
+    margin: 20px 0 30px 0;
+    color: black;
+    text-align: center;
+    text-shadow: -1px 1px 2px dimgray;
+}
+
 .avatar{
     width: 35%;
     height: 200px;
@@ -19,25 +27,16 @@ body{
     background-color: darkslategrey;
 }
 
-.border-green{
-    border: 4px dotted darkgreen;
-}
-
 #column{
     border: 4px dotted darkgreen;
     width: 250px;
     text-align: center;
     color: lightseagreen;
     text-shadow: -1px 1px 1px black;
-    font-style: inherit;
 }
 
-.container2 {
-    display: grid;
-    justify-items: center;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 30px;
-    padding-bottom: 30px;
+.border-green{
+    border: 4px dotted darkgreen;
 }
 
 .line{
@@ -47,20 +46,21 @@ body{
     font-style: inherit;
 }
 
-h1, h2{
-    margin: 20px 0 30px 0;
-    color: black;
-    text-align: center;
-    text-shadow: -1px 1px 2px dimgray;
+#container {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    padding-bottom: 30px;
+}
+
+#separation{
+    border: 2px solid darkslateblue;
+    margin-top: 50px;
 }
 
 h2{
     padding: 20px 0 30px 0;
-}
-
-.separation{
-    border: 2px solid darkslateblue;
-    margin-top: 50px;
 }
 
 .img{
